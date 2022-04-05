@@ -1,0 +1,98 @@
+
+header {display: block;
+        align-content: center;
+        width: 100%;
+        background-color: #b9a68c; 
+        border-color: #f4eadd;
+        padding: 0px
+}
+
+body {
+    text-align: center;
+    color: #f4eadd; 
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b9a68c;
+    font-size: 20px;
+}
+
+footer {background-color: #b9a68c;
+    color: #f4eadd;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    }
+
+.homeGrid{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.servicesGrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.gridTextCentre{
+    text-align:center;
+    padding-top:75px;
+    color: #f4eadd; 
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.gridTextLeft{
+    text-align: left;
+    padding-top: 75px;
+    color: #f4eadd; 
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.gridTextRight{
+    text-align: right;
+    text-justify: auto;
+    padding-top: 75px;
+    color: #f4eadd; 
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;    
+}
+
+.gridTextCentrePad{
+    text-align:center;
+    padding-top:275px;
+    color: #f4eadd; 
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.img600 {
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+}
+
+.img400{
+  width: 400px;
+  height: 400px;
+  object-fit: contain;    
+}
+
+.img200{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;    
+}
+
+.logo {display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  padding-left: 1500px;
+}
+
+.medialogo{
+    padding-left: 100px;
+}
